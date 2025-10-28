@@ -89,10 +89,16 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aframe/dist/aframe.min.js",
+              "https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3132ec6e-61a9-4390-9fc6-6c8daf5ac303"
   }
 }
